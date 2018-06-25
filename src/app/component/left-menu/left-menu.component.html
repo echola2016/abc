@@ -4,7 +4,7 @@
     <li nz-submenu>
       <span title><i class="anticon anticon-user"></i>subnav 1</span>
       <ul>
-        <li nz-menu-item *ngFor="let m of menus ">{{m.title}}</li>
+        <li nz-menu-item *ngFor="let m of menus " routerLink="{{m.url}}">{{m.title}}</li>
       </ul>
     </li>
     <li nz-submenu>
@@ -27,5 +27,5 @@
     </li>
   </ul>
 </nz-sider>
-<nz-content style="padding: 0 24px; min-height: 280px;">Content</nz-content>
+<nz-content style="padding: 0 24px; min-height: 280px;">ooopp</nz-content>
 </nz-layout>

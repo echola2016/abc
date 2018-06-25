@@ -15,7 +15,9 @@ export class LeftMenuComponent implements OnInit {
   ngOnInit() {
     const m1 = new Menu('a1', '菜单1');
     const m2 = new Menu('a2' , '菜单2');
-
+    this.menus =[
+      m1, m2
+    ];
   }
 
 
