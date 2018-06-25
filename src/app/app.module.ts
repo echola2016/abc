@@ -9,6 +9,7 @@ import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { LayoutComponent } from './component/layout/layout.component';
+import { LeftMenuComponent } from './component/left-menu/left-menu.component';
 
 registerLocaleData(zh);
 
@@ -19,7 +20,8 @@ export const ROUTES: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent
+    LayoutComponent,
+    LeftMenuComponent
   ],
   imports: [
     BrowserModule,
